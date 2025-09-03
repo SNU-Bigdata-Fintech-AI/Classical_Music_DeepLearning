@@ -1,0 +1,91 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_save
+*.nbconvert.ipynb
+
+# -----------------------------
+# Deep Learning / ML
+# -----------------------------
+# Checkpoints, model weights
+*.ckpt
+*.ckpt.*
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+
+# TensorBoard logs
+logs/
+tensorboard/
+events.out.tfevents.*
+
+# Training outputs
+checkpoints/
+saved_models/
+outputs/
+runs/
+wandb/
+mlruns/
+*.log
+
+# -----------------------------
+# Data
+# -----------------------------
+# Large raw/processed datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.npz
+*.npy
+*.pkl
+
+# If you want small configs tracked, whitelist them later
+!config/*.json
+!config/*.yaml
+
+# -----------------------------
+# IDE & OS
+# -----------------------------
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Colab / Kaggle
+# -----------------------------
+/kaggle/
+/content/
+/drive/
+
+# -----------------------------
+# Other
+# -----------------------------
+*.bak
+*.tmp
+*.swp
