@@ -41,7 +41,6 @@ events.out.tfevents.*
 # Training outputs
 checkpoints/
 saved_models/
-outputs/
 runs/
 wandb/
 mlruns/
